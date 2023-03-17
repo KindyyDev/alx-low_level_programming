@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
+
 /**
  * main - program that checks for positive and negative numbers
  *
@@ -16,7 +18,7 @@ int main(void)
 
 	if (n < 0)
 	{
-	`	printf("%i is negative\n", n);
+		printf("%i is negative\n", n);
 	}
 	else if (n == 0)
 	{
